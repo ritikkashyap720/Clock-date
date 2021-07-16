@@ -69,10 +69,7 @@ var clock = setInterval(
             day = "Saturday";
         }
 
-        console.log(date);
-        console.log(month);
-        console.log(year);
-        console.log(day);
+        
         dates.textContent = date;
         months.textContent = month;
         years.textContent = year;
