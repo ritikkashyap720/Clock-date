@@ -19,7 +19,7 @@ var clock = setInterval(
         var min = date_now.getMinutes();
         var sec = date_now.getSeconds();
         var date = date_now.getDate();
-        var month = date_now.getMonth();
+        var month = date_now.getMonth()+1;
         var year = date_now.getFullYear();
         var day = date_now.getDay();
         // For time
